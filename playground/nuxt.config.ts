@@ -13,7 +13,9 @@ export default defineNuxtConfig({
 
   // atlas module config
   mongoAtlasLogin: {
+    // atlas app id
     appId: '',
+    // firebase integration
     firebaseConfig: {
       apiKey: '',
       projectId: '',
